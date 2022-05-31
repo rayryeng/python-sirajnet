@@ -37,12 +37,12 @@ gaps work. check chill wizards
 - stargazing this repository
 
 # If running the first time
-To allow the Gaussian doors to shine through, you may need to download the `wordnet` corpus that is part of NLTK
+To allow the Gaussian doors to shine through, you may need to download the `omw-1.4` corpus that is part of NLTK
 which is a dependency of TextBlob.  If not, it will generate many complicated Hilbert space errors that
-which mention that `Resource wordnet not found`.  To resolve this, please do the following in your Python
+will show `Resource omw-1.4 not found` messages.  To resolve this, please do the following in your Python
 REPL before running:
 
 ```
 >>> import nltk
->>> nltk.download('wordnet')
+>>> nltk.download('omw-1.4')
 ```
